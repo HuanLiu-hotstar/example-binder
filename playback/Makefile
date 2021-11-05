@@ -5,6 +5,6 @@ target:
 	go build
 
 plugin:
-	go build -o playback.so -buildmode=plugin   playbackurl.go main.go 
+	go build -o playback.so -buildmode=plugin  binder.go main.go 
 clean:
 	rm -f playback 
